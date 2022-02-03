@@ -10,7 +10,7 @@ const inputSubmit = () => {
     const caseWord = document.querySelectorAll('.case__word');
     const casesContainer = document.querySelector('.cases__container');
 
-    inputSubmit.addEventListener('click', (event) => {
+    inputSubmit.addEventListener('click', () => {
         casesContainer.style.display = 'flex';
 
         caseWord[0].textContent = toGenitiveCase(inputText.value);
