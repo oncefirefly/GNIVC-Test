@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.input__container {
+    margin: 5% auto;
+    max-width: 300px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.input__form {
+    padding: 10px;
+}
+
+.input__area {
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.input__submit {
+    background: cornflowerblue;
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cases__container {
+    margin-top: 25px;
+    display: none;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.case {
+    border: 1px solid black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 200px;
+}
+
+.case__name {
+    border-bottom: 1px solid black;
+}
+
+.case__word {
+}
