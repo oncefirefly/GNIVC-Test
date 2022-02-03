@@ -38,6 +38,7 @@ body {
 
 .cases__container {
     margin-top: 25px;
+    margin-bottom: 25px;
     display: none;
     flex-flow: row wrap;
     justify-content: space-evenly;
