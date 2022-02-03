@@ -21,6 +21,7 @@ body {
 
 .input__form {
     padding: 10px;
+    margin: 0 10px;
 }
 
 .input__area {
@@ -57,5 +58,14 @@ body {
     border-bottom: 1px solid black;
 }
 
-.case__word {
+@media screen and (max-width: 310px) {
+    .container {
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 239px) {
+    .input__area {
+        max-width: 100px;
+    }
 }
